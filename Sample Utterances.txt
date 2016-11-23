@@ -3,6 +3,7 @@ GetBGValue what my blood sugar is
 GetBGValue what is my blood sugar
 GetBGValue what is my level
 GetBGValue how am I doing
+GetBGValue what my sugar is
 GetTrend how am I trending
 GetTrend what direction am I heading
 GetTrend where my blood sugar is heading
