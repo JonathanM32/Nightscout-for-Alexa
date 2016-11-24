@@ -11,7 +11,6 @@ def getCGMValue():
     
     nightscoutURL=  "YOUR NIGHTSCOUT URL HERE WITH HTTPS" + "/api/v1/entries/current.json"
     r=              requests.get(nightscoutURL)
-    global direction
     parsed=         r.json()
     currentValue=   parsed[0]['sgv']
     trendValue=     parsed[0]['direction']
@@ -45,7 +44,6 @@ def getCGMTrend():
     nightscoutURL=  "YOUR NIGHTSCOUT URL HERE WITH HTTPS" + "/api/v1/entries/current.json"
 
     r=              requests.get(nightscoutURL)
-    global direction
     
     parsed=         r.json()
     trendValue=     parsed[0]['direction']
